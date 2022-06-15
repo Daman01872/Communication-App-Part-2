@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+}
+
+.nav {
+    height: 50px;
+    border: 3px solid transparent;
+}
+
+.btn1 {
+    height: 60px;
+    width: 508px;
+    float: left;
+    padding-top: 5px;
+    text-align: center;
+    border: 3px solid;
+    border-right: 0px;
+    background: lightgray;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    cursor: pointer;
+}
+
+.btns2 {
+    height: 60px;
+    width: 508px;
+    float: left;
+    padding-top: 5px;
+    text-align: center;
+    border: 3px solid;
+    background: lightgray;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    cursor: pointer;
+}
+
+.btns3 {
+    height: 60px;
+    width: 508px;
+    float: left;
+    padding-top: 5px;
+    text-align: center;
+    border: 3px solid;
+    /* border-radius: 4px; */
+    border-left: 0px solid;
+    background: lightgray;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    cursor: pointer;
+}
+
+.col1 a,
+.col2 a,
+.col3 a {
+    text-decoration: none;
+}
+
+.btns2 {
+    background-color: white;
+    border-radius: 4px;
+    /* border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; */
+}
+
+.main {
+    height: 670px;
+    width: 1524px;
+    border: 3px solid;
+    border-radius: 4px;
+    border-top: 0px;
+}
+
+#user {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+/* ------------ styling of table ------------- */
+.tableUser {
+    /* height: 500px; */
+    width: 1510px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 20px;
+}
+#tr1{
+    background: rgb(195, 194, 194);
+}
+
+td{
+    border-right: 3px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+td:last-of-type {
+    border-right: none;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(236, 234, 234);
+    height: 32px;
+}
+
+tr:nth-child(even) {
+    height: 32px;
+}
+
+#tdmail{
+    text-align: center;
+}
+
+.editbtn,.delbtn{
+    border: transparent;
+    background: transparent;
+    font-size: 18px;   
+}
+p{
+    text-align: center;
+}
+#tdbtn{
+    width: 300px;
+
+}
+#tdname{
+    width: 600px;
+}
+.tdbtn{
+   margin-bottom: 0px;
+}

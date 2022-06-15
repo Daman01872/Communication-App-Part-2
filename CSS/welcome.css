@@ -1,0 +1,38 @@
+
+.layout{
+    height: 550px;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+#h1{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.916);
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h2{
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.918);
+    margin-top: 60px;
+}
+
+/* ------------ button styling ----------- */
+
+.btn{
+    height: 35px;
+    width: 120px;
+    color: black;
+    background: white;
+    font-size: 15px;
+    margin-left: 140px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+   
+}
+.a {
+    text-decoration: none;
+}

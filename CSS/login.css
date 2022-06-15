@@ -1,0 +1,76 @@
+.login {
+    height: 550px;
+    width: 450px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#log {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-------------- styling for form label part ----------------*/
+#log1 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+#log2 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*----------------- styling for form input type part -----------------*/
+#input1 {
+    height: 30px;
+    width: 230px;
+    margin-top: 30px;
+    margin-left: 37px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid;
+    border-radius: 8px;
+}
+
+#input2 {
+    height: 30px;
+    width: 230px;
+    margin-top: 40px;
+    margin-left: 37px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid;
+    border-radius: 8px;
+}
+
+/* ------------ button styling ----------- */
+
+#logBtn {
+    height: 35px;
+    width: 130px;
+    color: black;
+    background: aqua;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 175px;
+    margin-top: 60px;
+    border-radius: 8px;
+    border: 3px solid;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}

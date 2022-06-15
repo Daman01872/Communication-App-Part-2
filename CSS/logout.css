@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+}
+
+.nav {
+    height: 50px;
+    border: 3px solid transparent;
+}
+
+.btn1 {
+    height: 60px;
+    width: 510px;
+    float: left;
+    padding-top: 5px;
+    text-align: center;
+    border: 3px solid;
+    border-right: 0px;
+    background: lightgray;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    cursor: pointer;
+}
+
+.btns2 {
+    height: 60px;
+    width: 510px;
+    float: left;
+    padding-top: 5px;
+    text-align: center;
+    border: 3px solid;
+    border-right: 0px;
+    background: lightgray;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    cursor: pointer;
+}
+
+.btns3 {
+    height: 60px;
+    width: 510px;
+    float: left;
+    padding-top: 5px;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 4px;
+    /* border-left: 0px solid; */
+    background: lightgray;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    cursor: pointer;
+}
+
+.layout{
+    height: 550px;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+#h1{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.916);
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h2{
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.918);
+    margin-top: 60px;
+}
+
+/* ------------ button styling ----------- */
+
+.btn{
+    height: 35px;
+    width: 120px;
+    color: black;
+    background: white;
+    font-size: 15px;
+    margin-left: 140px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+   
+}
+.a {
+    text-decoration: none;
+}
+
+.col1 a,
+.col2 a,
+.col3 a {
+    text-decoration: none;
+}
+
+.btns3 {
+    background-color: white;
+    border-radius: 4px;
+    /* border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; */
+}

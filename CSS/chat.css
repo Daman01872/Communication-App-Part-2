@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+}
+.nav{
+    height: 50px;
+    border: 3px solid transparent;
+}
+.btn1{
+    height: 60px;
+    width: 510px;
+    float: left;
+    padding-top: 5px;
+    text-align: center;
+    border: 3px solid;
+    background: lightgray;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    cursor: pointer;
+}
+.btns{
+    height: 60px;
+    width: 510px;
+    float: left;
+    padding-top: 5px;
+    text-align: center;
+    border: 3px solid;
+    /* border-radius: 4px; */
+    border-left: 0px solid;
+    background: lightgray;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    cursor: pointer;
+}
+
+.col1 a,.col2 a,.col3 a{
+    text-decoration: none;
+}
+
+.btn1{
+    background-color: white;
+    border-radius: 4px;
+}
+.chat1{
+    height: 50px;
+    width: 1520px;
+    border: 3px solid;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 40px;
+}
+.chat2{
+    height: 310px;
+    width: 1520px;
+    border: 3px solid;
+    border-top: 1px;
+    border-radius: 4px;
+    margin: auto;
+}
+.chat3{
+    height: 70px;
+    width: 1520px;
+    border: 3px solid;
+    border-top: 1px;
+    border-radius: 4px;
+    margin: auto;
+}
+.chat4{
+    height: 190px;
+    width: 1520px;
+    border: 3px solid;
+    border-top: 1px;
+    border-radius: 4px;
+    margin: auto;
+}
+#chatH1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 680px;
+    font-weight: normal;
+    /* padding-bottom: 5px; */
+}
+.chat2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    list-style-type: none;
+    margin-left: 10px;
+}
+.chat3 p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    margin-left: 90px;
+}
+#chatinput{
+    height: 30px;
+    width: 1000px;
+    border: 3px solid;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+#send{
+    height: 35px;
+    width: 60px;
+    font-weight: bold;
+    border: 3px solid;
+    border-radius: 10px;
+    color: black;
+    background: white;
+    margin-left: 10px;
+}
+#refresh{
+    height: 35px;
+    width: 80px;
+    font-weight: bold;
+    border: 3px solid;
+    border-radius: 10px;
+    color: black;
+    background: white;
+    margin-left: 5px;
+}
+.chat1 button{
+    border: 3px solid;
+    border-radius: 4px;
+    height: 40px;
+    width: 40px;
+    background: white;
+    margin-left: 650px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.chat1 span{
+    padding-top: 5px;
+}
