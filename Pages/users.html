@@ -37,34 +37,37 @@
             <h1 id="user">Users</h1>
             <table class="tableUser" cellspacing="0">
                 <tr id="tr1">
-                    <td id="tdname">Name</td>
-                    <td id="tdmail">User Email ID</td>
-                    <td id="tdbtn"></td>
+                    <td class="tdname">Name</td>
+                    <td class="tdmail">User Email ID</td>
+                    <td class="tdbtn"></td>
                 </tr>
                 <tr class="tdbtn">
-                    <td>Text User</td>
-                    <td id="tdmail">textuser@gmail.com</td>
+                    <td class="tdname">Text User</td>
+                    <td class="tdmail">textuser@gmail.com</td>
                     <td>
-                        <p><a href="/Pages/edit-user.html"><button class="editbtn">Edit</button></a> | <a href="#"><button class="delbtn" data-bs-toggle="modal"
-                            href="#delete">Delete</button></a></p>
+                        <p><a href="/Pages/edit-user.html"><button class="editbtn">Edit</button></a> | <a
+                                href="#"><button class="delbtn" data-bs-toggle="modal" data-backdrop="false"
+                                    href="#delete">Delete</button></a></p>
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Anne Hunter</td>
-                    <td id="tdmail">anne.hunter@mail.com</td>
+                    <td class="tdname">Anne Hunter</td>
+                    <td class="tdmail">anne.hunter@mail.com</td>
                     <td>
-                        <p><a href="/Pages/edit-user.html"><button class="editbtn">Edit</button></a> | <a href="#"><button class="delbtn" data-bs-toggle="modal"
-                            href="#delete">Delete</button></a></p>
+                        <p><a href="/Pages/edit-user.html"><button class="editbtn">Edit</button></a> | <a
+                                href="#"><button class="delbtn" data-bs-toggle="modal" data-backdrop="false"
+                                    href="#delete">Delete</button></a></p>
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Jale Boser</td>
-                    <td id="tdmail">Jale@yahoo.com</td>
+                    <td class="tdname">Jale Boser</td>
+                    <td class="tdmail">Jale@yahoo.com</td>
                     <td>
-                        <p><a href="/Pages/edit-user.html"><button class="editbtn">Edit</button></a> | <a href="#"><button class="delbtn" data-bs-toggle="modal"
-                            href="#delete">Delete</button></a></p>
+                        <p><a href="/Pages/edit-user.html"><button class="editbtn">Edit</button></a> | <a
+                                href="#"><button class="delbtn" data-bs-toggle="modal" data-backdrop="false"
+                                    href="#delete">Delete</button></a></p>
                     </td>
                 </tr>
 
@@ -131,24 +134,34 @@
         </div>
 
         <!-- Modal -->
- <div class="modal" id="delete" tabindex="-1" aria-labelledby="exampleModalLabel"
- aria-hidden="true">
- <div class="modal-dialog modal-dialog-centered">
-     <div class="modal-content">
-         <div class="modal-header">
-             <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-         </div>
-         <div class="modal-body">
-             ...
-         </div>
-         <div class="modal-footer">
-             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-             <button type="button" class="btn btn-primary">Save changes</button>
-         </div>
-     </div>
- </div>
-</div>
+        <div class="modal" id="delete" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+            data-backdrop="false">
+
+            <!-- for vertically center arrangement -->
+            <div class="modal-dialog modal-dialog-centered modal-md">
+
+                <div class="modal-content border border-dark border-3">
+                    <!-- Modal Header -->
+                    <div class="modal-header border-bottom border-dark ">
+                        <h5 class="modal-title">Confirm User Deletion</h5>
+                        <button type="button" class="btn-close btn-close-black  border border-dark border-3"
+                            data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <!-- Modal Body -->
+                    <div class="modal-body">
+                        <img src="/Images/mark.png" alt="ques-mark" id="img"> <b>Are you Sure ?</b>
+
+                        <div class="modal-div">
+                            <button type="button" class="modalbtn1"
+                                data-bs-dismiss="modal">ok</button>
+                            <button type="button" class="modalbtn2">Cancel</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     </div>
