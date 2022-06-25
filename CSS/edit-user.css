@@ -4,12 +4,13 @@
 
 .nav {
     height: 50px;
+    margin-left: 5px;
     border: 3px solid transparent;
 }
 
 .btn1 {
     height: 60px;
-    width: 510px;
+    width: 503px;
     float: left;
     padding-top: 5px;
     text-align: center;
@@ -24,7 +25,7 @@
 
 .btns2 {
     height: 60px;
-    width: 510px;
+    width: 502px;
     float: left;
     padding-top: 5px;
     text-align: center;
@@ -38,7 +39,7 @@
 
 .btns3 {
     height: 60px;
-    width: 510px;
+    width: 502px;
     float: left;
     padding-top: 5px;
     text-align: center;
