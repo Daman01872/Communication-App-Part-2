@@ -11,20 +11,26 @@
 
 </head>
 
+<script src="/LocalStorage JS/login.js"></script>
+
 <body>
     <div class="login">
         <h1 id="log">Login</h1>
 
+        <form  method="get" name="LogForm" onsubmit=" return LoginData()" action="/Pages/login-success.html" >
+
         <label id="log1">Email</label>
         <input type="email" placeholder="Enter your email " id="input1"><br>
+        <span id="loginEmail"></span><br>
 
         <label id="log2">Password</label>
         <input type="password" placeholder="Enter password" id="input2"><br>
+        <span id="loginPass"></span><br>
 
-         <a href="/Pages/login-success.html">
-             <button id="logBtn">Login</button>
-        </a>
-
+         
+        <button id="logBtn">Login</button>
+        
+    </form>
     </div>
 </body>
 
