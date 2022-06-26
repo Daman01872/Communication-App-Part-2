@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LGroup Chat Page</title>
+    <title>Group Chat Page</title>
 
     <link rel="stylesheet" href="/CSS/chat.css">
 
 </head>
+<!-- <script src="https://code.jquery.com/jquery-latest.min.js"></script> -->
 
 <body>
     <div class="nav">
@@ -23,7 +24,7 @@
         </div>
 
         <div class="col3">
-            <a href="/Pages/logout.html"><button class="btns">Logout</button></a>
+            <a href="/Pages/logout.html"><button id="logoutBtn" class="btns">Logout</button></a>
         </div>
 
     </div>
@@ -34,23 +35,26 @@
         </h1>
     </div>
 
-    <div class="chat2">
+    <div id="chat2">
+        <ul id="list">
 
-        <p>[2022-06-13 02:00:10]Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, veniam dolo</p>
+        <!-- <li>[2022-06-13 02:00:10]Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, veniam dolo</li>
 
-        <p>[2022-06-13 02:00:10]Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, veniam dolo</p>
+        <li>[2022-06-13 02:00:10]Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, veniam dolo</li>
 
-        <p>[2022-06-13 02:00:10]Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, veniam dolo</p>
+        <li>[2022-06-13 02:00:10]Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, veniam dolo</li>
 
-        <p>[2022-06-13 02:00:10]Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, veniam dolo</p>
+        <li>[2022-06-13 02:00:10]Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, veniam dolo</li> -->
+
+    </ul>
 
     </div>
 
     <div class="chat3">
-        <p><b>Anne Hunter </b>
+        <p><b>Leave message </b>
             <input type="text" placeholder="I am good" id="chatinput">
             <button id="send">Send</button>
-            <button id="refresh">Refresh</button>
+            <button id="refresh" onclick="refresh()">Refresh</button>
         </p>
     </div>
 
@@ -60,7 +64,7 @@
 
     </div>
 
-
+<script src="/LocalStorage JS/chat.js"></script>
 </body>
 
 </html>
