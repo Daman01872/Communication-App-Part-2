@@ -101,7 +101,7 @@
 }
 
 /*----------------- styling for form input type part -----------------*/
-#input1 {
+#name {
     height: 30px;
     width: 230px;
     margin-top: 60px;
@@ -112,7 +112,7 @@
     border-radius: 8px;
 }
 
-#input2 {
+#email {
     height: 30px;
     width: 230px;
     margin-top: 40px;

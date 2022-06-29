@@ -30,13 +30,24 @@
         </div>
 
         <div class="col3">
-            <a href="/Pages/logout.html"><button class="btns3">Logout</button></a>
+            <a href="/Pages/logout.html"><button id="logoutBtn" class="btns3">Logout</button></a>
         </div>
 
         <div class="main">
             <h1 id="user">Users</h1>
-            <table class="tableUser" cellspacing="0">
-                <tr id="tr1">
+            <table class="tableUser" cellspacing="0" border="2">
+                <thead >
+                    <tr id="row1">
+                        <td id="tdName">Name</td>
+                        <td >User Email Id</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody id="root">
+
+                </tbody>
+                </table>
+                <!-- <tr id="tr1">
                     <td class="tdname">Name</td>
                     <td class="tdmail">User Email ID</td>
                     <td class="tdbtn"></td>
@@ -129,26 +140,26 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                </tr>
-            </table>
+                </tr> -->
+            
         </div>
 
-        <!-- Modal -->
+        <!-- Modal
         <div class="modal" id="delete" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
             data-backdrop="false">
 
-            <!-- for vertically center arrangement -->
-            <div class="modal-dialog modal-dialog-centered modal-md">
+            -- for vertically center arrangement -->
+            <!--<div class="modal-dialog modal-dialog-centered modal-md">
 
                 <div class="modal-content border border-dark border-3">
-                    <!-- Modal Header -->
+                    -- Modal Header 
                     <div class="modal-header border-bottom border-dark ">
                         <h5 class="modal-title">Confirm User Deletion</h5>
                         <button type="button" class="btn-close btn-close-black  border border-dark border-3"
                             data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
 
-                    <!-- Modal Body -->
+                     Modal Body 
                     <div class="modal-body">
                         <img src="/Images/mark.png" alt="ques-mark" id="img"> <b>Are you Sure ?</b>
 
@@ -164,9 +175,9 @@
         </div>
 
 
-    </div>
+    </div> -->
 
-
+<script src="/LocalStorage JS/users.js"></script>
 </body>
 
 </html>

@@ -68,7 +68,7 @@
 
 .main {
     height: 670px;
-    width: 1510px;
+    width: 1500px;
     border: 3px solid;
     border-radius: 4px;
     border-top: 0px;
@@ -76,54 +76,45 @@
 
 #user {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 30px;
+    font-size: 40px;
+    margin-top: 50px;
     margin-left: 25px;
+    padding-top: 40px;
+    font-weight: normal;
 }
-
 /* ------------ styling of table ------------- */
 .tableUser {
     /* height: 500px; */
-    width: 1500px;
+    width: 1497px;
     border: 3px solid ;
-    border-radius: 8px;
-    border-top: 2px solid;
+    /* border-top: 2px solid; */
     margin: auto;
     margin-top: 20px;
+    border-right: transparent;
+    border-radius: 5px;
+    
 }
 
 .tableUser td{
-    border-right: 3px solid black;
-    border-radius: 4px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    border: none;
+    border-right: 3px solid black;
 }
 
-#tr1{
-    background: rgb(195, 194, 194);
-}
 
-/* .tableUser td:last-of-type {
+/* #td{
     border-right: none;
-} */
 
+} */
 tr:nth-child(odd) {
     background-color: rgb(236, 234, 234);
-    height: 34px;
+    height: 45px;
 }
 
 tr:nth-child(even) {
-    height: 34px;
+    height: 45px;
 }
-
-.tdmail{
-    text-align: center;
-}
-
-.tdname{
-    padding-left: 5px;
-    width: 600px;
-}
-
 #editbtn,#delbtn{
     border: transparent;
     background: transparent;
@@ -134,16 +125,10 @@ p{
     text-align: center;
 }
 
-#img{
-    height: 60px;
-    width: 60px;
-    margin-left: 90px;
-    margin-top: 10px;
-    border-radius: 100px;
-}
 thead{
     text-align: center;
 }
+
 td{
     text-align: center;
 }
@@ -152,56 +137,104 @@ td{
     background-color: rgb(175, 172, 172);
     font-weight: bold;
 }
-/* }
-.modal-backdrop {
-    background-color: transparent;
- }
 
- .modal-div{
-    height: 70px;
-    width: 350px;
-    margin: auto;
-    padding-top: 40px;
- }
- .modal-div button{
-    border: 2px solid;
- }
+/* Styling for pop up */
 
- .modalbtn1{
-    width: 100px;
-    border-radius: 8px;
+.md {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.md_head {
+    box-sizing: border-box;
+    text-align: center;
+    border-bottom: 3px solid black;
+    width: 300px;
+}
+
+h2 {
+    /* display: inline-block; */
+    /* text-align: center; */
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.xBtn {
+    margin-left: 60px;
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
     background: white;
-    /* outline: blue; */
-    /* margin-left: 50px;
-    font-size: 18px;
+}
+.xBtn:hover{
+    background: rgb(244, 243, 243);
+}
+
+.md-body {
+    display: inline-block
+}
+
+img {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 55px;
+    width: 55px;
+    border-radius: 100px;
+
+}
+
+h3 {
+    display: inline-block;
+    margin-top: 1px;
     font-family: Arial, Helvetica, sans-serif;
-   
- }
- .modalbtn2{
-    width: 140px;
-    border-radius: 8px;
+}
+
+.md-footer {
+    margin-top: 25px;
+}
+
+.okBtn {
+    margin-left: 30px;
+    height: 30px;
+    width: 90px;
+    border: 2px solid blue;
+    border-width: 3px;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
     background: white;
-    margin-left: 10px;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
- }
-
- .modal-body b{
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 20px;
-    margin-top: 90px;
- }
-
- .modal-title{
-    margin-left: 105px;
-    font-size: 20px;
+    font-size: 17px;
     /* font-weight: bold; */
-    /* font-family: Arial, Helvetica, sans-serif;
- }
+}
 
- .modal-header{
-    height: 42px;
- }  */
+.okBtn:hover {
+    background-color: whitesmoke;
+}
 
- 
+.canBtn {
+    margin-left: 30px;
+    height: 30px;
+    width: 90px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    font-size: 17px;
+
+}
+
+.canBtn:hover {
+    background-color: whitesmoke;
+}

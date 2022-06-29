@@ -1,12 +1,26 @@
+var logUser = JSON.parse(localStorage.getItem('LoggedInUsers')) ? JSON.parse(localStorage.getItem('LoggedInUsers')) : [];
+
+function protectRouting(){
+if(logUser.length===0)
+{
+    alert('Not LoggedIn User');
+    window.location.href="welcome.html"
+}
+}
+protectRouting();
+
+
 showMessages();
 
 var logUser = JSON.parse(localStorage.getItem('LoggedInUsers'));
+//console.log(logUser);
 var logoutBtn = document.getElementById('logoutBtn');
 var sendChat = document.getElementById('send');
 var msg = document.getElementById('chatinput');
 var ul = document.querySelector('#list');
 
 var fullName = logUser.fullName;
+document.getElementById('userName').innerHTML=fullName;
 //console.log(fullName)
 
 // If user adds a msg then add it to the localStorage
@@ -16,7 +30,7 @@ sendChat.addEventListener('click', function (e) {
   var curr = new Date();
 
   var date = curr.getDate();
-  var month = curr.getMonth()+1;  //0-11
+  var month = curr.getMonth() + 1;  //0-11
   var year = curr.getFullYear();
 
   var hour = curr.getHours();
@@ -37,7 +51,6 @@ sendChat.addEventListener('click', function (e) {
 
   //storing the key chats to localstorage
   localStorage.setItem('chats', JSON.stringify(chatsObj));
-  //   console.log(chatsObj);
   msg.value = '';
   showMessages();
 });
@@ -55,34 +68,24 @@ function showMessages() {
 
   var chatsMsg = document.getElementById('list');
 
-  if (chatsObj.length != 0) 
-  {
+  if (chatsObj.length != 0) {
     chatsMsg.innerHTML = html;
-  } 
-  else
-  {
+  }
+  else {
     chatsMsg.innerHTML = ``;
   }
 }
+
+
+function refresh() {
+  document.getElementById('chat2').innerHTML = window.location.reload(true);
+}
+
 
 logoutBtn.addEventListener('click', function () {
   localStorage.removeItem('LoggedInUsers');
 });
 
-function refresh(){
-  document.getElementById('chat2').innerHTML = location. reload();
-  }
 
 
 
-// refresh.addEventListener('click', function ()
-//     { 
-//       //$('#chat2').load("#chat2");
-//      // $('#list').load("#list");
-//        // document.getElementById('list').innerHTML= "" + document.getElementById('list').innerHTML
-//         document.getElementById('list').innerHTML="" 
-//    // $( "#chat2" ).load(window.location.href + " #chat2" );
-
-
-//        // window.location.reload('chat2');
-//     });

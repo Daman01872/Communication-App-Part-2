@@ -9,6 +9,9 @@ function LoginData() {
         document.getElementById('loginEmail').innerHTML = " * Please enter your email";
         return false;
     }
+    else{
+        document.getElementById('loginEmail').innerHTML = "";
+    }
 
 
     //---------- Validation of Password -----------
@@ -17,12 +20,20 @@ function LoginData() {
         document.getElementById('loginPass').innerHTML = " * Please enter password";
         return false;
     }
+    else{
+        document.getElementById('loginPass').innerHTML = "";
+    }
+
 
     //  var p = /^(?=.*[0-9])(?=.*[a-z]).{6}$/;
     if (logpwd.length <= 3 || logpwd.length >= 8) {
         document.getElementById('loginPass').innerHTML = " * Length must be upto 8";
         return false;
     }
+    else{
+        document.getElementById('loginPass').innerHTML = "";
+    }
+
 
     // --------login, check whether username and password exist inside Localstorage or not--------
 
